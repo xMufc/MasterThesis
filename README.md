@@ -8,11 +8,12 @@ Opis poszczególnych funkcjonalności:
 	Jednostki w grze posiadają podstawowe statystyki takie jak: maksymalne zdrowie, siła ataku, pancerz, prędkość poruszania się czy też zasięg ataku. Każda z jednostek posiada swoje animacje, również dołączone do paczki z assetami o nazwie „RPGHeroSquad”. Każda z postaci posiada nad sobą, swój prywatny pasek zdrowia. 
 2. ### 'GameUI'
   Podczas rozgrywki gracz posiada do dyspozycji interfejs użytkownika, który zawiera takie elementy jak:
-    * na samej górze występuje sekcja z nazwą aktualnej fazy (oczekiwania na graczy, zakupów i rozmieszania jednostek, walki, wyników po każdej rundzie orazpodsumowania rozgrywki), a także zegarem, przedstawiającym czas który pozostał do zakończeniu aktualnej fazy. 
-    * w prawym górnym rogu, ukazuje się aktualna ilość posiadanego złota przez danego klienta,
-    * po lewej stronie znajduje się segment z informacjami o użytkownikach.
-    * w lewym dolnym rogu znajduje się chat, na którym gracze mogą komunikować się między sobą.
-    * na dole po prawej stronie znajduję się sklep do zakupu jednostek, który jest aktywny tylko w fazie kupowania i rozmieszania jednostek.  
+    - na samej górze występuje sekcja z nazwą aktualnej fazy (oczekiwania na graczy, zakupów i rozmieszania jednostek, walki, wyników po każdej rundzie orazpodsumowania rozgrywki), a także zegarem, przedstawiającym czas który pozostał do zakończeniu aktualnej fazy. 
+    - w prawym górnym rogu, ukazuje się aktualna ilość posiadanego złota przez danego klienta,
+    - po lewej stronie znajduje się segment z informacjami o użytkownikach.
+    - w lewym dolnym rogu znajduje się chat, na którym gracze mogą komunikować się między sobą.
+    - na dole po prawej stronie znajduję się sklep do zakupu jednostek, który jest aktywny tylko w fazie kupowania i rozmieszania jednostek.  
+	
 3. ### 'GridManager'
 	Rozgrywka toczy się na polu bitwy przypominającym szachownicę. Na planszy wyróżnia się trzy podstawowe strefy: strefę spawn pierwszego gracza, strefę neutralną oraz strefę spawnu drugiego gracza. Każda ze stref posiada swoją indywidualną teksturę: pierwsza strefa teksturę w kolorze niebieskim, druga przypomina trawę, a trzecia teksturę w kolorze czerwonym.
 4. ### 'HealthBarWidget'
